@@ -1,0 +1,6 @@
+cid = str(input('Qual é a sua cidade natal:'))
+print('A sua cidade natal inicia com as letras: {}'.format(cid[:5]))
+print('Procuramos alguem da cidade Santo. Vamos analisar seu resultado')
+print('Espera mais um momento')
+print('O resultado da nossa busca é:')
+print(cid[:5] == 'Santo')
